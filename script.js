@@ -57,30 +57,19 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             name: "مبدل گیتهاب اکشن",
             description: "مبدل لینک اشتراک مبتنی بر GitHub Actions، برای تبدیل و مدیریت لینک‌ها.",
-            link: "https://github.com/vpnclashfa-backup/subconverter",
+            link: "https://github.com/10ium/subconverter",
             icon: `data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 20v-6m0-6V2'/><path d='M12 8a2 2 0 100-4 2 2 0 000 4z'/><path d='M20 12h-6m-6 0H2'/><path d='M8 12a2 2 0 10-4 0 2 2 0 004 0z'/><path d='M12 22a2 2 0 100-4 2 2 0 000 4z'/><path d='M22 12a2 2 0 10-4 0 2 2 0 004 0z'/></svg>`
         },
         {
             name: "مبدل آفلاین ویندوز",
             description: "نسخه تقریباً آفلاین مبدل پروکسی برای ویندوز، مناسب برای استفاده محلی.",
-            link: "https://github.com/vpnclashfa-backup/OfflineProxyConverter",
+            link: "https://github.com/10ium/OfflineProxyConverter",
             icon: `data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='2' y='3' width='20' height='14' rx='2' ry='2'/><path d='M8 21h8'/><path d='M12 17v4'/><path d='M12 12l-2-2m4 0l-2 2'/><path d='M10 10l2 2'/></svg>`
         }
     ];
 
     // اطلاعات ابزارهای دیگر
     const otherTools = [
-        {
-            name: "GitHub Release Tracker",
-            description: "ابزاری برای پیگیری و به‌روزرسانی آسان اپلیکیشن‌های اندروید و دریافت نوتیفیکیشن نسخه‌های جدید.",
-            sub_descriptions: [
-                "این ابزار، اپلیکیشن‌های پولی اندروید را از فارسروید دریافت و در گیتهاب منتشر می‌کند تا با [Obtainium](https://obtainium.app/) راحت‌تر بتوانید آن‌ها را به‌روزرسانی کنید.",
-                "با اپ [Obtainium](https://obtainium.app/) راحت‌تر می‌توانید اپ‌های اوپن سورس اندروید را بروز کنید، مثلاً همین فیلترشکن‌هایی که توی گیتهاب منتشر می‌شوند.",
-                "برای ویندوز هم می‌توانید از ربات [@github_release_monitor_bot](https://t.me/github_release_monitor_bot) استفاده کنید تا وقتی نسخه جدید منتشر شد نوتیفیکیشن بده."
-            ],
-            link: "https://github.com/vpnclashfa-backup/GitHub-Release-Tracker",
-            icon: `data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.875L6 12z'/><path d='M16 12a4 4 0 10-8 0 4 4 0 008 0z'/><path d='M21 3L12 12'/></svg>`
-        },
         {
             name: "LAN-Yar",
             description: "ابزاری برای ساخت کانفیگ میهومو (کلش متا) و به اشتراک‌گذاری اینترنت فیلترشکن روی شبکه محلی با دستگاه‌های دیگر.",
